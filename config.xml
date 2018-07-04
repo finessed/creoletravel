@@ -1,0 +1,27 @@
+<platform name="ios" />
+<platform name="android" />
+<platform name="winphone" />
+All of the above fields are standard Cordova config.xml tags. For more detailed info about the above elements, and all the others available, see the Cordova config.xml documentation. Most of these will work on PhoneGap Build, but if you face issues with any specific tags, let us know.
+
+
+Example Config.xml
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.creoletravel.upstudio"
+    versionCode = "10"
+    version     = "1.0.0" >
+
+<!-- versionCode is optional and Android only -->
+
+  <name>Creole Travel Services</name>
+
+  <description>
+      An example for Creole Travel App.
+  </description>
+
+  <author href="https://getactive.sc" email="delroy@getactive.sc">
+    Delroy Finesse
+  </author>
+
+</widget>
